@@ -117,7 +117,7 @@ def think():
 	pass
 	
 	
-update = requests.get("https://raw.githubusercontent.com/CyberDemon404/DEMO2/main/use.py")
+update = requests.get("https://github.com/SspyGie999/Approved.txt")
 uuidd = str(os.geteuid()) + str(os.getlogin()) + str(os.getuid())
 id = "".join(uuidd).replace("_","").replace("360","AHS").replace("u","9").replace("a","A")
 plat = platform.version()[14:][:21][::-1].upper()+platform.release()[5:][::-1].upper()+platform.version()[:8]
@@ -125,13 +125,13 @@ xp = plat.replace(' ', '').replace('-', '').replace('#', '').replace(':', '').re
 bxd = ""
 log = "D3M02"
 bumper = id+bxd+xp+log
-myweb2 = requests.get("https://raw.githubusercontent.com/CyberDemon404/DEMO2/main/use.py").text
+myweb2 = requests.get("https://github.com/SspyGie999/Approved.txt").text
 
 def demonbuy():
         try:
                 os.system('clear')
                 banner()
-                x = requests.get('https://raw.githubusercontent.com/CyberDemon404/DEMO2/main/use.py').text
+                x = requests.get('https://github.com/SspyGie999/Approved.txt').text
                 if str("upppdate") in update:
                         os.system('clear')
                         exit('script is in update / maintanance be patient ')
